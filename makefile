@@ -3,4 +3,4 @@ build Cdice.cc CharPtr.h MathParser.h:
 install:
 	mv cdice $DESTDIR/usr/share
 uninstall:
-	rm $DESTDIR/usr/share/cdice
+	rm $(DESTDIR)/usr/share/cdice
