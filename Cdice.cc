@@ -109,7 +109,7 @@ int main(int argc, char *argv[])
 	{
 		//roll 1d6 if called with no arguments
 		std::cout << Roll(1,6) << std::endl;
-		return 1;
+		return 0;
 	}
 	//set up the custom math operands to be used in parsing, using d for rolling
 	char Operands[7] = {'+','-','*','/','^','d','\x00'};
@@ -135,5 +135,5 @@ int main(int argc, char *argv[])
 
 	//cout an endline to make it purty and return
 	std::cout << std::endl;
-	return 1;
+	return 0;
 }
